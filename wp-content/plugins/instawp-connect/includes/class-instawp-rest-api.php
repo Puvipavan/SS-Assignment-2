@@ -704,6 +704,16 @@ class InstaWP_Rest_Api {
 			'message'    => '',
 		);
 
+		// The API key must be validated before installing this plugin. For demonstration purposes, I'm going to return an invalid API key response.
+		if ( empty( $parameters['api_key'] ) ) {
+			$results['message'] = esc_html__( 'Api key is required', 'instawp-connect' );
+			return $this->send_response( $results );
+		} else {
+			// The API key must be validated by the service provider.
+			$results['message'] = esc_html__( 'Invalid API Key', 'instawp-connect' );
+			return $this->send_response( $results );
+		}
+
 		if ( isset( $parameters['override_plugin_zip'] ) && ! empty( $parameters['override_plugin_zip'] ) ) {
 			$this->override_plugin_zip_while_doing_config( $parameters['override_plugin_zip'] );
 
