@@ -1080,7 +1080,7 @@ function wpmsTemplateRedirect()
 
                     // get referer url
                     if (wp_get_raw_referer()) {
-                        $referer_url = wp_get_raw_referer();
+                        $referer_url = esc_html(wp_get_raw_referer());
                     } else {
                         $referer_url = get_home_url();
                     }
