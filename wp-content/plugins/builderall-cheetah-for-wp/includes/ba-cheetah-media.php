@@ -38,7 +38,8 @@ add_action( 'rest_api_init', function () {
 });
 
 function builderall_images_remote_file_exists( $url ) {
-    if( strpos($url, 'https://storage.builderall.com') !== 0 ) {
+    $parsed_url = parse_url($url);
+    if ( $parsed_url['host'] !== 'storage.builderall.com' || $parsed_url['scheme'] !== 'https' ) {
         return false;
     }
 
