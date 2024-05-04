@@ -1,0 +1,60 @@
+.ba-module__pricing-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.ba-module__pricing-list[data-photo-position=alternate] .pricing-list__item:nth-child(even), .ba-module__pricing-list[data-photo-position=right] .pricing-list__item {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.ba-module__pricing-list[data-photo-position=alternate] .pricing-list__item:nth-child(even) .pricing-list__headline, .ba-module__pricing-list[data-photo-position=right] .pricing-list__item .pricing-list__headline {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.ba-module__pricing-list .pricing-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+}
+.ba-module__pricing-list .pricing-list__item .pricing-list__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.ba-module__pricing-list .pricing-list__item .pricing-list__text .pricing-list__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-block: 0;
+}
+.ba-module__pricing-list .pricing-list__item .pricing-list__text .pricing-list__heading .pricing-list__title a {
+  color: inherit !important;
+}
+.ba-module__pricing-list .pricing-list__item .pricing-list__text .pricing-list__heading hr {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-bottom: unset;
+  border-left: unset;
+  border-right: unset;
+  margin: 0;
+}
+.ba-module__pricing-list .pricing-list__item .pricing-list__text .pricing-list__description {
+  margin-top: 0.5rem;
+}
+.ba-module__pricing-list .pricing-list__item .pricing-list__text .pricing-list__description p {
+  margin: 0;
+}

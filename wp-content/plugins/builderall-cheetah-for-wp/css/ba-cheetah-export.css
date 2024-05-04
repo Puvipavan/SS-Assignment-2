@@ -1,0 +1,14 @@
+#ba-cheetah-template-filters {
+	padding: 0 0 20px 20px;
+}
+#ba-cheetah-template-filters .spinner {
+	float: none;
+    margin-bottom: 3px;
+}
+#ba-cheetah-template-export-posts {
+	display: none;
+	padding: 20px 0 10px 0;
+}
+#ba-cheetah-template-export-posts p {
+	margin-bottom: 8px;
+}

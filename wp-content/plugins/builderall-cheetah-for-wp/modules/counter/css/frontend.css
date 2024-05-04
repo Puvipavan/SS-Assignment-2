@@ -1,0 +1,8 @@
+.ba-module__counter .counter__content .counter__pre {
+	margin-right: -0.27em;
+	white-space: pre-wrap;
+}
+.ba-module__counter .counter__content .counter__pos {
+	margin-left: -0.27em;
+	white-space: pre-wrap;
+}

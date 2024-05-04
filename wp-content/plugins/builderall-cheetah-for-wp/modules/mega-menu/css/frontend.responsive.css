@@ -1,0 +1,14 @@
+.ba-module__mega-menu .mega-menu__nav__items {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: unset;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.ba-module__mega-menu .mega-menu__nav__items .mega-menu__nav__item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

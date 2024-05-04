@@ -1,0 +1,7 @@
+.ba-module__posts {
+  display: grid;
+  gap: 10px;
+}
+.ba-module__posts .card__text .more-link {
+  display: none;
+}

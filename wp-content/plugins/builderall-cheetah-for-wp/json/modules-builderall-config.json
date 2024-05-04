@@ -1,0 +1,23 @@
+{
+	"booking": {
+		"name": "Booking",
+		"show": true
+	},
+	"mailingboss": {
+		"name": "Mailingboss",
+		"show": true
+	},
+	"webinar": {
+		"name": "Webinar",
+		"show": true
+	},
+	"video-hosting": {
+		"name": "Video Hosting",
+		"show": false
+	},
+	"supercheckout": {
+		"name": "Supercheckout",
+		"show": false
+	}
+}
+

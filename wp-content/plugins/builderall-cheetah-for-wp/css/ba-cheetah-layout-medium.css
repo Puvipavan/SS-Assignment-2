@@ -1,0 +1,22 @@
+/* Responsive Utilities
+------------------------------------------------------ */
+
+.ba-cheetah-visible-desktop,
+.ba-cheetah-visible-mobile,
+.ba-cheetah-col-group .ba-cheetah-visible-desktop.ba-cheetah-col,
+.ba-cheetah-col-group .ba-cheetah-visible-mobile.ba-cheetah-col {
+	display: none;
+}
+.ba-cheetah-visible-desktop-medium,
+.ba-cheetah-visible-medium,
+.ba-cheetah-visible-medium-mobile,
+.ba-cheetah-col-group .ba-cheetah-visible-desktop-medium.ba-cheetah-col,
+.ba-cheetah-col-group .ba-cheetah-visible-medium.ba-cheetah-col,
+.ba-cheetah-col-group .ba-cheetah-visible-medium-mobile.ba-cheetah-col {
+	display: block;
+}
+.ba-cheetah-col-group-equal-height .ba-cheetah-visible-desktop-medium.ba-cheetah-col,
+.ba-cheetah-col-group-equal-height .ba-cheetah-visible-medium.ba-cheetah-col,
+.ba-cheetah-col-group-equal-height .ba-cheetah-visible-medium-mobile.ba-cheetah-col {
+	display: flex;
+}

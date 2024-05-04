@@ -1,0 +1,28 @@
+.ba-cheetah-animated.ba-cheetah-fade-down {
+	animation: ba-cheetah-fade-down 1s ease;
+	-webkit-animation: ba-cheetah-fade-down 1s ease;
+}
+@-webkit-keyframes ba-cheetah-fade-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes ba-cheetah-fade-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

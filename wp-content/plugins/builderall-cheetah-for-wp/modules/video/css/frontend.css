@@ -1,0 +1,84 @@
+.ba-cheetah-embed-video iframe {
+	max-width: 100%;
+}
+.ba-cheetah-wp-video {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	padding: 0 0 56.25%;
+}
+.ba-cheetah-wp-video .wp-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+
+.mfp-container .ba-cheetah-video-lightbox-content .wp-video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mfp-container .ba-cheetah-video-lightbox-content .fluid-width-video-wrapper iframe {
+	width: 80%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ba-cheetah-module-video .ba-cheetah-video-poster {
+	cursor: pointer;
+}
+
+.ba-cheetah-wp-video .wp-video .mejs-container,
+.ba-cheetah-wp-video .wp-video .mejs-inner,
+.ba-cheetah-wp-video .wp-video .mejs-layers,
+.ba-cheetah-wp-video .wp-video .mejs-layer,
+.ba-cheetah-wp-video .wp-video-shortcode,
+.ba-cheetah-wp-video .me-plugin,
+.ba-cheetah-wp-video .me-plugin * {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.ba-cheetah-video-sticky {
+	position: fixed;
+	z-index: 11;
+}
+.ba-cheetah-video-sticky > .ba-cheetah-module-content {
+	margin: 10px !important;
+}
+.ba-cheetah-module-video:not(.ba-cheetah-video-sticky) .ba-cheetah-video-close-button {
+	display: none;
+}
+.ba-cheetah-video-close-button,
+.ba-cheetah-video-close-button:hover,
+.ba-cheetah-video-close-button:focus {
+	position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 12;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding: 0;
+    justify-content: center;
+    border: unset;
+    background: hsl(227deg 47% 21%);
+	cursor: pointer;
+}
+.ba-cheetah-video-close-button .dashicons {
+	padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #eee;
+}
+
+.ba-cheetah-wp-video img{
+	width: 100%;
+}

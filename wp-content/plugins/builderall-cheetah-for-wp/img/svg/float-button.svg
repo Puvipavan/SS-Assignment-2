@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.999" height="55" viewBox="0 0 38.999 55">
+  <g id="Floating_Button" data-name="Floating Button" transform="translate(-9.865 -242.111)">
+    <circle id="Elipse_318" data-name="Elipse 318" cx="7.5" cy="7.5" r="7.5" transform="translate(31.864 259.111)" fill="#6fb0ff"/>
+    <circle id="Elipse_320" data-name="Elipse 320" cx="10" cy="10" r="10" transform="translate(28.864 277.111)" fill="#0080fc"/>
+    <circle id="Elipse_319" data-name="Elipse 319" cx="7.5" cy="7.5" r="7.5" transform="translate(31.865 242.111)" fill="#6fb0ff"/>
+    <path id="Caminho_485" data-name="Caminho 485" d="M10.663,9.815a.6.6,0,1,1-.848.848L7.839,8.688,5.863,10.663a.6.6,0,1,1-.848-.848L6.991,7.839,5.015,5.863a.6.6,0,1,1,.848-.848L7.839,6.991,9.815,5.015a.6.6,0,1,1,.848.848L8.688,7.839Z" transform="translate(31.025 279.271)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <rect id="Retângulo_1214" data-name="Retângulo 1214" width="19" height="7" rx="3.5" transform="translate(9.865 246.111)" fill="#6fb0ff" opacity="0.595"/>
+    <rect id="Retângulo_1215" data-name="Retângulo 1215" width="19" height="7" rx="3.5" transform="translate(9.865 263.111)" fill="#6fb0ff" opacity="0.595"/>
+  </g>
+</svg>

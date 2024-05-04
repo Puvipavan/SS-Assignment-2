@@ -1,0 +1,11 @@
+.ba-module__progress-circle .progress-circle__svg circle {
+  --circunference: calc(var(--radius) * 2 * 3.14);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: inherit !important;
+  transition: inherit !important;
+  stroke-dasharray: var(--circunference);
+  stroke-dashoffset: calc(var(--circunference) - var(--progress-percent) / 100 * var(--circunference));
+}

@@ -1,0 +1,3 @@
+.pricing-list__item {
+	flex-direction: column !important;
+}

@@ -1,0 +1,22 @@
+/* Rows
+------------------------------------------------------ */
+
+.ba-cheetah-row[data-node] .ba-cheetah-row-content-wrap {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.ba-cheetah-row[data-node] .ba-cheetah-bg-video,
+.ba-cheetah-row[data-node] .ba-cheetah-bg-slideshow {
+	left: 0;
+	right: 0;
+}
+
+/* Columns
+------------------------------------------------------ */
+
+.ba-cheetah-col[data-node] .ba-cheetah-col-content {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}

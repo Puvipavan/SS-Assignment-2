@@ -1,0 +1,49 @@
+/** initial setup **/
+.ba-cheetah-nanoscroller {
+	position : relative;
+	width    : 100%;
+	height   : 100%;
+	overflow : hidden;
+}
+.ba-cheetah-nanoscroller .ba-cheetah-nanoscroller-content {
+	position      : absolute;
+	overflow      : scroll;
+	overflow-x    : hidden;
+	top           : 0;
+	right         : 0;
+	bottom        : 0;
+	left          : 0;
+}
+.ba-cheetah-nanoscroller .ba-cheetah-nanoscroller-content:focus {
+	outline: thin dotted;
+}
+.ba-cheetah-nanoscroller .ba-cheetah-nanoscroller-content::-webkit-scrollbar {
+	display: none;
+	visibility: hidden;
+}
+.has-scrollbar .ba-cheetah-nanoscroller-content::-webkit-scrollbar {
+	display: block;
+	visibility: visible;
+}
+.ba-cheetah-nanoscroller > .ba-cheetah-nanoscroller-pane {
+	position   : absolute;
+	width      : 8px;
+	right      : 2px;
+	top        : 2px;
+	bottom     : 2px;
+	visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+	opacity    : .01;
+	-webkit-transition    : .2s;
+	-moz-transition       : .2s;
+	-o-transition         : .2s;
+	transition            : .2s;
+}
+.ba-cheetah-nanoscroller > .ba-cheetah-nanoscroller-pane > .ba-cheetah-nanoscroller-slider {
+	background: #c9ced3;
+	border-radius: 10px;
+	position: relative;
+}
+.ba-cheetah-nanoscroller:hover > .ba-cheetah-nanoscroller-pane, .ba-cheetah-nanoscroller-pane.active, .ba-cheetah-nanoscroller-pane.flashed {
+	visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+	opacity    : 0.99;
+}

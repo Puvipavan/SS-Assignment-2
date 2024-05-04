@@ -1,0 +1,62 @@
+.ba-module__mega-menu {
+  position: relative;
+}
+.ba-module__mega-menu .mega-menu__nav {
+  overflow: hidden;
+}
+.ba-module__mega-menu .mega-menu__nav .mega-menu__nav__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.ba-module__mega-menu .mega-menu__nav .mega-menu__nav__items .mega-menu__nav__item {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  cursor: pointer;
+  -webkit-transition-property: color, background-color, border;
+  transition-property: color, background-color, border;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+}
+.ba-module__mega-menu .mega-menu__nav .mega-menu__nav__items .mega-menu__nav__item a {
+  color: inherit !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: inherit;
+}
+.ba-module__mega-menu .mega-menu__nav .mega-menu__nav__items .mega-menu__nav__item a:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: close-quote;
+}
+.ba-module__mega-menu .mega-menu__nav .mega-menu__nav__items .mega-menu__nav__item a:focus {
+  outline: none;
+  text-decoration: none;
+  background: inherit;
+}
+.ba-module__mega-menu .mega-menu__content {
+  left: 0;
+}

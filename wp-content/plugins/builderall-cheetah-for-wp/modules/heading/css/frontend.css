@@ -1,0 +1,8 @@
+.ba-cheetah-module-heading .ba-cheetah-heading {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.ba-cheetah-module-heading .ba-cheetah-heading::before,
+.ba-cheetah-module-heading .ba-cheetah-heading::after {
+	content: unset;
+}

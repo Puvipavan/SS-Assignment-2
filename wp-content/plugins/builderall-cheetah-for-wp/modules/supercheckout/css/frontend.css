@@ -1,0 +1,6 @@
+.ba-module__supercheckout iframe {
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg width='14px' height='14px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid' class='uil-ring'%3E%3Crect x='0' y='0' width='100' height='100' fill='none' class='bk'%3E%3C/rect%3E%3Ccircle cx='50' cy='50' r='44' stroke-dasharray='179.69909978533616 96.7610537305656' stroke='%230080FC' fill='none' stroke-width='12'%3E%3CanimateTransform attributeName='transform' type='rotate' values='0 50 50;180 50 50;360 50 50;' keyTimes='0;0.5;1' dur='1s' repeatCount='indefinite' begin='0s'%3E%3C/animateTransform%3E%3C/circle%3E%3C/svg%3E");    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50px;
+	background-repeat: no-repeat;
+}

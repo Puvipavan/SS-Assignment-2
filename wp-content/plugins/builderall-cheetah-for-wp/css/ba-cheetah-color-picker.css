@@ -1,0 +1,574 @@
+/* Iris Base
+---------------------------------------------------- */
+
+.ba-cheetah-color-picker-ui .iris-picker {
+	width: 100%;
+	height: 220px;
+	display: block;
+	position: relative;
+}
+.ba-cheetah-color-picker-ui .iris-picker, .iris-picker * {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.ba-cheetah-color-picker-ui .iris-error {
+	background-color: #ffafaf;
+}
+.ba-cheetah-color-picker-ui .iris-picker-inner{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-inner {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 6px;
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square {
+	width: 260px;
+    height: 190px;
+}
+
+.ba-cheetah-color-picker-ui .iris-picker .iris-slider,
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-inner,
+.ba-cheetah-color-picker-ui .iris-picker .iris-palette {
+	height: 100%;
+	width: 12.5%;
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-placeholder,
+.ba-cheetah-color-picker-ui .iris-picker .iris-square {
+	position: relative;
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-inner {
+	width: auto;
+	margin: 0;
+}
+.ba-cheetah-color-picker-ui .iris-ie-9 .iris-square,
+.ba-cheetah-color-picker-ui .iris-ie-9 .iris-slider,
+.ba-cheetah-color-picker-ui .iris-ie-9 .iris-square-inner,
+.ba-cheetah-color-picker-ui .iris-ie-9 .iris-palette {
+	box-shadow: none;
+	border-radius: 0;
+}
+.ba-cheetah-color-picker-ui .iris-ie-9 .iris-square,
+.ba-cheetah-color-picker-ui .iris-ie-9 .iris-slider,
+.ba-cheetah-color-picker-ui .iris-ie-9 .iris-palette {
+	outline: 1px solid rgba(0,0,0,.1);
+}
+.ba-cheetah-color-picker-ui .iris-ie-lt9 .iris-square,
+.ba-cheetah-color-picker-ui .iris-ie-lt9 .iris-slider,
+.ba-cheetah-color-picker-ui .iris-ie-lt9 .iris-square-inner,
+.ba-cheetah-color-picker-ui .iris-ie-lt9 .iris-palette {
+	outline: 1px solid #999;
+}
+
+.ba-cheetah-color-picker-ui .iris-ie-lt9 .iris-square .ui-slider-handle {
+	outline: 1px solid #999;
+	background-color: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+.ba-cheetah-color-picker-ui .iris-ie-lt9 .iris-square .iris-square-handle {
+	background: none;
+	border: 3px solid #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-strip {
+	box-sizing: border-box;
+	width: 260px;
+	margin-top: 8px;
+	border-radius: 10px;
+	position: relative;
+	height: 14px;
+	-webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		 -o-transform: rotate(180deg);
+			transform: rotate(180deg);
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-strip .ui-slider-handle {
+	width: 18px;
+	position: absolute;
+	right: 0;
+	top: -2px;
+	bottom: -2px;
+	margin: 0;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 0px 3px rgba(0,0,0,.5);
+	z-index: 5;
+	cursor: ew-resize;
+	margin-left: -8px;
+}
+.ba-cheetah-color-picker-ui .ba-cheetah-alpha-slider .ui-slider-handle:focus,
+.ba-cheetah-color-picker-ui .iris-picker .iris-strip .ui-slider-handle:focus {
+	outline: 2px solid var(--ba-cheetah-primary);
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-slider-offset {
+	position: absolute;
+	top: 0;
+	left: 6px;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	-webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		 -o-transform: rotate(180deg);
+			transform: rotate(180deg);
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-handle {
+	background: transparent;
+	border: 5px solid #999;
+	border-radius: 50%;
+	border-color: rgba(128,128,128,.5);
+	box-shadow:none;
+	width:  12px;
+	height: 12px;
+	position: absolute;
+	left: -10px;
+	top:  -10px;
+	cursor: move;
+	opacity: 1;
+	z-index: 10;
+}
+.ba-cheetah-color-picker-ui .iris-picker .ui-state-focus .iris-square-handle {
+	opacity: .8;
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-handle:hover {
+	border-color: #999;
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-value:focus .iris-square-handle {
+	box-shadow: 0 0 2px rgba(0,0,0,.75);
+	opacity: .8;
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-handle:hover::after {
+	border-color: #fff;
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-handle::after {
+	position: absolute;
+	bottom: -4px;
+	right:  -4px;
+	left:   -4px;
+	top:    -4px;
+	border: 3px solid #f9f9f9;
+	border-color: rgba(255,255,255,.8);
+	border-radius: 50%;
+	content: " ";
+}
+.ba-cheetah-color-picker-ui .iris-picker .iris-square-value {
+	width:  0px;
+	height: 0px;
+	position: absolute;
+}
+.iris-ie-lt9 .iris-square-value, .iris-mozilla .iris-square-value {
+	width: 1px;
+	height: 1px;
+}
+
+/* Cheetah Picker
+---------------------------------------------------- */
+
+.ba-cheetah-color-picker-wrapper {
+	position: relative;
+	width: 48px;
+	height: 32px;
+}
+.ba-cheetah-color-picker {
+	/*
+	box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
+    background: white; 
+    background-image: url(../img/transp_bg.png);
+    border-radius: 4px;
+    width: 120px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+	 */
+}
+body .ba-cheetah-color-picker-color {
+	flex: 0 1 36px;
+    box-sizing: border-box !important;
+    position: relative;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 3px solid rgba(235, 235, 235, .5) !important;
+	transition: .2s ease all;
+}
+body .ba-cheetah-color-picker-color:focus,
+body .ba-cheetah-color-picker-color:hover {
+	outline:none;
+	border-color: transparent !important;
+    box-shadow: 0px 0px 0px 2px var(--ba-cheetah-primary) !important;;
+}
+.ba-cheetah-color-picker-icon {
+	display:none;
+	margin:auto;
+}
+.ba-cheetah-color-picker-color.ba-cheetah-color-picker-empty svg.ba-cheetah-color-picker-icon {
+	display:block;
+}
+.ba-cheetah-color-picker-clear {
+	box-sizing: border-box;
+	position: relative;
+	display: flex !important;
+	flex: 0 0 36px;
+	justify-content: center;
+	padding: 0;
+	border: 2px solid transparent;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background-color: transparent !important;
+	border-color:transparent;
+	cursor: pointer;
+	align-items: center;
+}
+.ba-cheetah-color-picker-clear:hover svg {
+	fill: var(--ba-cheetah-danger);
+}
+.ba-cheetah-color-picker-color.ba-cheetah-color-picker-empty + .ba-cheetah-color-picker-clear {
+	display: none;
+}
+.ba-cheetah-color-picker-value-input,
+.ba-cheetah-color-picker-value {
+	margin: 0 10px !important;
+	max-width: 130px;
+}
+
+.ba-cheetah-color-picker-ui {
+	display: inline-block;
+	font-family: Helvetica, Verdana, sans-serif;
+	z-index: 1;
+	position: fixed;
+	overflow: hidden;
+	color: #999;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, .28);
+	border-radius: 10px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transform: translate3d(0,0,0);
+	padding: 10px;
+}
+.ba-cheetah-color-picker-ui.ba-cheetah-color-picker-active{
+	visibility: visible;
+	opacity: 1;
+	z-index: 999999;
+}
+.ba-cheetah-color-picker-ui .ba-cheetah-color-picker-input,
+.ba-cheetah-color-picker-ui .ba-cheetah-color-picker-input:focus{
+	box-shadow: inset 0px 0px 0px #cccccc;
+    border: 1px solid #C9D1DB;
+    border-radius: 3px;
+    font: normal normal 600 13px/16px Muli;
+    color: #222222;
+    height: 33px;
+	outline: none;
+	text-align: center;
+	width: 100%;
+}
+.ba-cheetah-color-picker-ui .iris-square-value {
+	-webkit-transition: none;
+	-moz-transition:    none;
+	-ms-transition:     none;
+	-o-transition:      none;
+	transition:         none;
+}
+.ba-cheetah-color-picker-preset-add{
+	width: 13px;
+    height: 13px;
+	margin: 0px 9px 0px 9px;
+	cursor: pointer;
+	-webkit-transition: all .2s;
+	   -moz-transition: all .2s;
+		-ms-transition: all .2s;
+		 -o-transition: all .2s;
+			transition: all .2s;
+}
+.ba-cheetah-color-picker-preset-add:hover:before,
+.ba-cheetah-color-picker-preset-add:hover:after{
+	background-color: #333;
+}
+.ba-cheetah-color-picker-preset-add:before,
+.ba-cheetah-color-picker-preset-add:after{
+	content: '';
+	display: block;
+	position: relative;
+	background-color: #A6A6A6;
+}
+.ba-cheetah-color-picker-preset-add:before{
+	top: 5px;
+    left: 0px;
+    width: 13px;
+    height: 3px;
+}
+.ba-cheetah-color-picker-preset-add:after{
+	left: 5px;
+    top: -3px;
+    width: 3px;
+    height: 13px;
+}
+.ba-cheetah-color-picker-presets{
+	width: 100%;
+	z-index: 15;
+	border-top: 1px solid #C9D1DB;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.ba-cheetah-color-picker-presets-title{
+	font: normal normal 600 13px/19px Muli;
+	color: #222222;
+	margin-bottom: 6px;
+    display: block;
+}
+
+.ba-cheetah-color-picker-presets-list{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 260px;
+	padding: 0;
+}
+
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset,
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-no-preset{
+	margin: 0;
+	position: relative;
+	padding: 6px;
+	font-size: 12px;
+}
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-no-preset{
+	padding: 18px 5px;
+	text-align:center;
+}
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset:hover .ba-cheetah-color-picker-preset-remove{
+	visibility: visible;
+}
+
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset-color{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .7);
+	border-radius: 50%;
+	cursor: pointer;
+	transition: .3s ease box-shadow;
+}
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset-color:hover{
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .9);
+}
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset-label {
+	display: none;
+}
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset-remove {
+	position: absolute;
+    color: #a8b7cb;
+    border: 2px solid #a8b7cb;
+    border-radius: 50%;
+    box-sizing: content-box;
+    top: 0;
+    left: 15px;
+    z-index: 1;
+    background: #fff;
+	visibility: hidden;
+	width: 14px;
+    height: 14px;
+	transform: scale(0.8);
+}
+.ba-cheetah-color-picker-clear .ba-cheetah-color-picker-icon-remove {
+	right: auto;
+	top: auto;
+	margin:auto;
+}
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset-remove:hover:before,
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset-remove:hover:after {
+	background-color: #333;
+}
+
+.ba-cheetah-color-picker-added{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(57, 57, 57, .67);
+}
+.ba-cheetah-color-picker-added-text{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 80%;
+	font-size: 14px;
+	color: #fff !important;
+	-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		 -o-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+}
+
+/* Color Picker Icons
+---------------------------------------------------- */
+
+.ba-cheetah-color-picker-icon-check{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	margin: 5px auto;
+}
+.ba-cheetah-color-picker-icon-check:before{
+	content: '';
+	display: block;
+	position: relative;
+	width: 15px;
+	height: 30px;
+	margin-left: 14px;
+	border: 7px solid #fff;
+	border-left: none;
+	border-top: none;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.ba-cheetah-color-picker-icon-arrow-up,
+.ba-cheetah-color-picker-icon-arrow-down{
+	display: inline-block;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+}
+.ba-cheetah-color-picker-icon-arrow-up:before,
+.ba-cheetah-color-picker-icon-arrow-down:before{
+	content: '';
+	display: block;
+	position: relative;
+	width: 6px;
+	height: 6px;
+	border: 2px solid #999;
+	border-left: none;
+	border-top: none;
+    -webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+    	-ms-transform: rotate(45deg);
+    	 -o-transform: rotate(45deg);
+		    transform: rotate(45deg);
+}
+.ba-cheetah-color-picker-icon-arrow-up{
+	top: 2px;
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+    	-ms-transform: rotate(180deg);
+    	 -o-transform: rotate(180deg);
+    		transform: rotate(180deg);
+}
+
+.ba-cheetah-color-picker-icon-remove:before,
+.ba-cheetah-color-picker-icon-remove:after{
+	content: '';
+	display: block;
+	position: relative;
+	background-color: #6f7881;
+}
+.ba-cheetah-color-picker-icon-remove:before{
+	left: 6px;
+    width: 2px;
+    height: 10px;
+    margin-top: 2px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.ba-cheetah-color-picker-icon-remove:after{
+    left: 6px;
+    width: 2px;
+    height: 10px;
+    margin-top: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Color Picker Alpha / Opacity
+---------------------------------------------------- */
+.ba-cheetah-alpha-wrap {
+	position: relative;
+    width: 260px;
+    height: 14px;
+    /* right: 4px; */
+    border-top: none;
+	margin-bottom: 15px;
+}
+
+.ba-cheetah-alpha-slider {
+	position: absolute;
+    top: 1px;
+    width: 254px;
+	height: 100%;
+}
+
+.ba-cheetah-alpha-slider .ui-slider-handle {
+	width: 18px;
+    position: absolute;
+    right: 0;
+    top: -2px;
+    bottom: -2px;
+	margin-left: -8px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0px 3px rgb(0 0 0 / 50%);
+    z-index: 5;
+    cursor: ew-resize;
+}
+
+.ba-cheetah-alpha-slider-offset {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASCAYAAAAe/ZHXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkNEQUQ0ODM4RUE0MTFFNEExOEJFN0E5M0VFOTg0QUQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkNEQUQ0ODQ4RUE0MTFFNEExOEJFN0E5M0VFOTg0QUQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2Q0RBRDQ4MThFQTQxMUU0QTE4QkU3QTkzRUU5ODRBRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2Q0RBRDQ4MjhFQTQxMUU0QTE4QkU3QTkzRUU5ODRBRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/r/N8AAAWYSURBVHjarFvvR3VBEN45JZGIPkREHyIiIhJJf3qUSERE9CGiDxERkcg9z9u92uucvTszz5z7xnHPj93Z2d359cxscn5+jpTS+EoiMr3/+51cZ2dn4+e29i2/u7y8RKf/pO3vc+o+n5ycoNK31+f6+jrfZ37yuG2mf3R01H3fa5N/b29vU6dP5qft0G4PDg5MGuPr/v4+jz1t27mfvN/b21P75+fHx8eZfiV/Ozs7rUJnSu/5+RlFv+m6ZJpbW1s1PnrvXl9fZ/qX89zY2LB4mfy+v7/nsdV1XltbK/dr5vnz87OcV5bJabuVlRVLBifjfX9/l/xkGtM+S0tLNXnu0szfU/P3IMn/k0678h6ddqjQFGccVL6hoCsVfsq+NZ5QtCv5rfFS41sq37W+UPhMyhxEWTetvce3NR8oewqD39qalXuGAK/WPltjajIC4x2c9Ye1f43SGcqGwRBeTZjhMNntL4pCWZMQYhE05RVl02EovRgC4RkCbUNSQAGhGB/GsKG4h6FQoigDa2i8fRBy3uLMXYIG3Vr3aZvRaCRdBYlYIMZywhBGCVhgzzOlgRuUSOvC0GMEWxOM/+EtQFh1OIIXtfwg1tRaayGjg5px0jyZKEaTle3e+AsLCygVRAh3FlEgKbReE3oYGj9EgIR00QiEgKw3ZBQbRGjBeAMtDETQmHiKDsezJNLgCTFGItZXlAgCSiQggblP+9c8SDI0lXWlFv5g3K63KZ51FOcZzthQ3LomoNHwJmKIQISI3vqzSpwIQ8liSjGMFQjDpoVgaQ6cWgvLhOC7qiAwiHrWbEg4JMSmeUrBuHoYwioOQNXmhmAcrs096s1gJCGi3hSEVU8DQxYElYHhKwUUGAa+NqOBMsSSAQJuhQhCAH4vxozExsxiihPuaIrjCVYKWlYEsjSM52G8Kxxryngl5j0j+EyGTIiED4s1Itm0ZGWxMFCLJaBAcEI6OBkmFgNBoc8Cait2ZnENE/6wQN8LJSJeSMNAjKVm+LUMAIt3PR5AQgIGp1Z5zxhE8PtXUYReYeXi4mKmOPNXBMzt2tPT07LIUtJqr66uusXEbkFnWiQ6Pj72ikrtzc1NKopuvbbj58PDwxqNHp27u7tuYWumUDV+v7+/Xyu6pc59+/DwUCsC9ujt7u6qRbt8//T01C3elbyN70fb29uZ/1FSincvLy/lPGb42tzc9IqJeHt7q61Pr2C6vr7u7tfHx8fMPhV0sLq6WhZtU0n36+uru8elPE7aLi8v1wqJPXn++fmZKYgX8ozFxcXJb0NaQTHClZT8+gBjsYdaFc+zWcUkGTCWENY66ta92oSVzo3WI6IZKGtukeyfBLFKBNAj6bUOBgaoe9wE4n04IBNkLMoC7+Skj630ZlTJMYdyMsU2T8AwpzALkVFilZgJcT2l9PCWDDSAMBSjVlJgZNk0lE1AIby0qCiCnBQNj6aBGQslZIZJ5hB6D/AzQHto5Z9Nk8tARdN4q2ExBnsyIJ311EymShyjan2rKk0zh1Ay1oQVWAZQRnkUA8RFw7TahjBnmNgMVMQrsCGZJezRtGlU0cUZ1zuaxGZPpbhApM+ZpFQqQ6xadoMtBrEKpBVo4GRXvNSxpaRixKiR+TChCYhsDwZkfFj8IkErjAHejcUI0XQrgwehhNSMHAz21E0wZ23FcCAmj8Sd/PXy2xLYLAuwRw4IMsqjFaWYOpMEhDySAPFCWyFkgAHrEcA+BNeJ4UE8HCzJPpCrerUmQIx1pWJkjqxJD8EikUo2c5aI8ZYgsAkM4WQtnHd0ns0ORgVTBghy5ISy928SGsbTMqYg523RUY8oNYG4FIYiyRyZCnFCJC87IoRAIMVOqQ7BKexxCS2hYVl9JhvlpYjnAe4MhmRPMWhhvLfXINaI9WKM0Zu0+SfAAFLE1EgfVSv7AAAAAElFTkSuQmCC);
+    background-position: left;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 5px rgb(0 0 0 / 40%) inset;
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+    border-radius: 20px;
+	width: 260px;
+    height: 14px;
+}
+
+.ba-cheetah-alpha-text {
+	width: 30px;
+  	font-size: 12px;
+  	text-align: center;
+  	color: #999;
+	display: none;
+}

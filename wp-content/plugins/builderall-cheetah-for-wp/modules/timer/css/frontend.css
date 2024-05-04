@@ -1,0 +1,24 @@
+.ba-module__timer .timer__counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+.ba-module__timer .timer__counter .timer__box {
+  text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+  overflow: hidden;
+}
+.ba-module__timer .timer__message {
+  display: none;
+  text-align: center;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}

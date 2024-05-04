@@ -1,0 +1,26 @@
+.ba-cheetah-animated.ba-cheetah-fancy-flash {
+	animation: ba-cheetah-fancy-flash 1s ease;
+	-webkit-animation: ba-cheetah-fancy-flash 1s ease;
+}
+@-webkit-keyframes ba-cheetah-fancy-flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes ba-cheetah-fancy-flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}

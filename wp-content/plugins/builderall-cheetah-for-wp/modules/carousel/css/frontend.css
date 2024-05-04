@@ -1,0 +1,91 @@
+.keen-slider__parent {
+  height: inherit !important;
+}
+.keen-slider__parent body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.keen-slider__parent [class^=number-slide],
+.keen-slider__parent [class*=" number-slide"] {
+  background: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: inherit !important;
+  max-height: 100vh;
+}
+.keen-slider__parent .keen-slider__slide .ba-cheetah-photo,
+.keen-slider__parent .keen-slider__slide .ba-cheetah-photo-content,
+.keen-slider__parent .keen-slider__slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.ba-module__carousel .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+}
+.ba-module__carousel .scene {
+  width: 260px;
+  height: inherit;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  position: relative;
+}
+.ba-module__carousel .carousel {
+  height: inherit;
+  width: 100%;
+  display: block;
+  position: absolute;
+  overflow: visible;
+  -webkit-transform: translateZ(-288px);
+          transform: translateZ(-288px);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  overflow: initial !important;
+}
+.ba-module__carousel .carousel__cell {
+  position: absolute !important;
+  width: 240px;
+  left: 10px;
+  height: inherit !important;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.ba-module__carousel .thumbnail .keen-slider__slide {
+  font-size: 30px;
+  height: 100px;
+}
+.ba-module__carousel .thumbnail .keen-slider__slide {
+  cursor: pointer;
+}
+.ba-module__carousel .thumbnail .keen-slider__slide.active {
+  border: 1px dashed black;
+}
+.ba-module__carousel .swiper-slide .ba-cheetah-photo {
+  text-align: center;
+}
+.ba-module__carousel .swiper-slide .ba-cheetah-photo-content,
+.ba-module__carousel .swiper-slide .ba-cheetah-photo-img,
+.ba-module__carousel .swiper-slide .ba-cheetah-photo {
+  width: 100%;
+}
+
+.ba-cheetah-module-carousel .ba-cheetah-node-content {
+  overflow: hidden;
+}

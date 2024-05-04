@@ -1,0 +1,42 @@
+.ba-module__progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.ba-module__progress .progress__bar__counter {
+  display: block;
+}
+.ba-module__progress .progress__bar__counter .counter__increment {
+  font-variant-numeric: tabular-nums;
+}
+.ba-module__progress .progress__bar__outer {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.ba-module__progress .progress__bar__outer .progress__bar__inner {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  gap: 0.5em;
+  white-space: nowrap;
+}
+.ba-module__progress .progress__bar__outer .progress__bar__inner > * {
+  padding: 0 0.5em;
+}
+.ba-module__progress .progress__bar__outer .progress__bar__inner .progress__bar__text {
+  display: block;
+  width: 100%;
+}
+.ba-module__progress .progress__bar__outer .progress__bar__inner .progress__bar__counter {
+  width: 100%;
+}

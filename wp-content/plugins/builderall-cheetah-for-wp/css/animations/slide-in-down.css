@@ -1,0 +1,26 @@
+.ba-cheetah-animated.ba-cheetah-slide-in-down {
+	animation: ba-cheetah-slide-in-down 1s ease;
+	-webkit-animation: ba-cheetah-slide-in-down 1s ease;
+}
+@-webkit-keyframes ba-cheetah-slide-in-down {
+  from {
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes ba-cheetah-slide-in-down {
+  from {
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

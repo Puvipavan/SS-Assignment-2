@@ -1,0 +1,26 @@
+.ba-cheetah-animated.ba-cheetah-slide-in-left {
+  	animation: ba-cheetah-slide-in-left 1s ease;
+  	-webkit-animation: ba-cheetah-slide-in-left 1s ease;
+}
+@-webkit-keyframes ba-cheetah-slide-in-left {
+  from {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes ba-cheetah-slide-in-left {
+  from {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

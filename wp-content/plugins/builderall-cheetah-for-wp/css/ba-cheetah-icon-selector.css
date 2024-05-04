@@ -1,0 +1,142 @@
+/* lightbox */
+.ba-cheetah-lightbox-wrap.ba-cheetah-icon-selector {
+	z-index: 1000111;
+	top: 0;
+}
+.ba-cheetah-icon-selector .bal-cheetah-lightbox {
+    max-width: 1000px;
+    width: 80%;
+	background-color: #f3f7ff;
+	padding: 20px 30px;
+}
+
+.ba-cheetah-icon-selector .bal-cheetah-lightbox .ba-cheetah-lightbox-header h1 {
+	padding-bottom: 12px;
+	font-weight: 700!important;
+    font-size: 20px!important;
+    font-family: Muli;
+    color: #434343;
+	height: 38px;
+}
+
+/* filter */
+.ba-cheetah-icons-filter {
+	display: flex;
+    flex-direction: row;
+	height: 46px;
+	margin-bottom: 16px;
+	gap: 15px;
+}
+.ba-cheetah-icons-filter select {
+	background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	vertical-align: middle;
+	width: 195px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	color: #000;
+	margin: 0;
+	padding: 2px 10px !important;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.986' height='5.246' viewBox='0 0 8.986 5.246'%3E%3Cpath id='sort-solid' d='M17.69,64.207h7.475a.755.755,0,0,1,.534,1.288l-3.737,3.737a.751.751,0,0,1-1.065,0l-3.74-3.737A.755.755,0,0,1,17.69,64.207Z' transform='translate(-16.934 -64.207)' fill='%23333'/%3E%3C/svg%3E%0A");;
+	background-position: calc(100% - 8px) center;
+	background-repeat: no-repeat;
+	flex: 0 1 195px;
+}
+.ba-cheetah-icons-filter input[type="text"] {
+	line-height: 18px;
+	vertical-align: middle;
+	width: 160px;
+	flex: 1 1 160px;
+	background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	padding:2px 10px 2px 50px !important;
+	background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNC45OTcnIGhlaWdodD0nMTUnPjxwYXRoIGQ9J00xNC43OTMgMTIuOTY4bC0yLjkyMS0yLjkyMWEuNy43IDAgMDAtLjUtLjIwNUgxMC45QTYuMDkgNi4wOSAwIDEwOS44NDMgMTAuOXYuNDc3YS43LjcgMCAwMC4yMDUuNWwyLjkyMSAyLjkyMWEuNy43IDAgMDAuOTkzIDBsLjgyOS0uODI5YS43MDYuNzA2IDAgMDAuMDAyLTEuMDAxem0tOC43LTMuMTI2YTMuNzUgMy43NSAwIDExMy43NS0zLjc1IDMuNzQ3IDMuNzQ3IDAgMDEtMy43NSAzLjc1MXonIGZpbGw9JyM0MzQzNDMnLz48L3N2Zz4=);
+	background-position: 20px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.ba-cheetah-icons-filter input[type="text"]:focus,
+.ba-cheetah-icons-filter select:focus {
+	border: 2px solid var(--ba-cheetah-primary) !important;
+	outline: none;
+}
+
+/* icons list */
+.ba-cheetah-icons-list {
+    max-height: 50vh;
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	padding-bottom: 16px;
+}
+
+.ba-cheetah-icons-section {
+	text-align: center;
+}
+.ba-cheetah-icons-section h2 {
+	background: #FDFDFD;
+    font: normal normal 600 15px/22px Muli;
+    letter-spacing: 0px;
+    color: #434343;
+    border-bottom: 1px solid #E5E9EF;
+    border-top: 1px solid #E5E9EF;
+    padding: 15px 20px;
+    display: block;
+	margin: 16px 0;
+}
+.ba-cheetah-icons-section:first-child h2 {
+	margin-top: 0;
+}
+.ba-cheetah-icons-section h2::before {
+	content: unset;
+}
+.ba-cheetah-icons-list i {
+	cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    background: transparent;
+    text-align: center;
+    vertical-align: middle;
+    margin: 3px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.ba-cheetah-icons-list .dashicons-before:before{
+	font-size: 28px;
+	vertical-align: unset;
+	width: 30px;
+}
+
+.ba-cheetah-icons-list i:hover {
+	background: white;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
+    transform: scale(1.3);
+}
+
+/* footer */
+.ba-cheetah-icon-selector-footer {
+	padding-top: 24px;
+	justify-content: flex-end;
+}
+.ba-cheetah-icon-selector-footer .ba-cheetah-icon-selector-cancel {
+    font-size: 13px;
+	font-weight: 700 !important;
+    font-family: Muli,Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 4px 30px;
+    border-radius: 5px;
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	background-color: transparent;
+	color: #404040 !important;
+	flex: unset;
+}

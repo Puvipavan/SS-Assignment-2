@@ -1,0 +1,23 @@
+.fancybox-active.admin-bar:not(.fancybox-responsive-preview) .fancybox-container, .ba-cheetah-show-admin-bar .fancybox-active .fancybox-container {
+    top: 32px !important;
+    height: calc(100% - 32px) !important;
+}
+
+.fancybox-responsive-preview .fancybox-container {
+    height: calc(100% - 54px) !important;
+}
+
+.fancybox-container .fancybox-caption__body span {
+    display: block;
+    font-size: 16px !important;
+    text-transform: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.fancybox-container .fancybox-caption__body p {
+    font-size: 14px !important;
+    text-transform: none !important;
+    margin: 0;
+    padding: 0;
+}

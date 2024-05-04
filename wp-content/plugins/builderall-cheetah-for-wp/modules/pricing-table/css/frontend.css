@@ -1,0 +1,115 @@
+.ba-module__pricing-table .pricing-table__box {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  --ribbon-depth: 6px;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__header > * {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  display: block;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__price {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__price .pricing-table__title {
+  color: #fff;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__price .pricing-table__subtitle {
+  color: #fff;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__price .pricing-table__price {
+  color: #fff;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__features {
+  margin: 0;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__features .pricing-table__feature-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__features .pricing-table__feature-item span {
+  word-break: break-word;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__features .pricing-table__feature-item--divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__features .pricing-table__feature-item--divider hr {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: transparent !important;
+  border-bottom: none;
+  margin: 0;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__features .pricing-table__feature-item--divider hr::after, .ba-module__pricing-table .pricing-table__box .pricing-table__features .pricing-table__feature-item--divider hr::before {
+  content: unset;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__features .pricing-table__feature-item--divider:last-child {
+  display: none;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__cta {
+  display: block;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__ribbon {
+  z-index: 1;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__ribbon::before {
+  content: attr(data-text);
+  position: absolute;
+  font-size: 16px;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(29.29%, -100%) rotate(45deg);
+          transform: translate(29.29%, -100%) rotate(45deg);
+  text-align: center;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  padding: 5px 2em calc(var(--ribbon-depth) + 5px);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0 0);
+  background-position: bottom;
+  background-size: 100% var(--ribbon-depth);
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - var(--ribbon-depth)) calc(100% - var(--ribbon-depth)), var(--ribbon-depth) calc(100% - var(--ribbon-depth)), 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - var(--ribbon-depth)) calc(100% - var(--ribbon-depth)), var(--ribbon-depth) calc(100% - var(--ribbon-depth)), 0 100%);
+  -webkit-mask: linear-gradient(135deg, transparent calc(50% - var(--ribbon-depth) * 0.707), #fff 0) bottom left, linear-gradient(-135deg, transparent calc(50% - var(--ribbon-depth) * 0.707), #fff 0) bottom right;
+  -webkit-mask-size: 300vmax 300vmax;
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+}
+.ba-module__pricing-table .pricing-table__box .pricing-table__ribbon[data-position=left]::before {
+  left: 0;
+  right: auto;
+  -webkit-transform: translate(-29.29%, -100%) rotate(-45deg);
+          transform: translate(-29.29%, -100%) rotate(-45deg);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}

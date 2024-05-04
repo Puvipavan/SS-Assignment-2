@@ -1,0 +1,11 @@
+.ba-cheetah-content .ba-cheetah-rich-text strong {
+	font-weight: bold !important;
+}
+
+.ba-cheetah-content .ba-cheetah-rich-text em {
+	font-style: italic !important;
+}
+
+.ba-cheetah-content .ba-cheetah-rich-text a {
+	text-decoration: initial !important;
+}

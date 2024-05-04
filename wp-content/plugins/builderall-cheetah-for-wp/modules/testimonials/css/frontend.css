@@ -1,0 +1,52 @@
+.ba-module__testimonials--avatar-left .testimonials__content, .ba-module__testimonials--avatar-right .testimonials__content {
+  grid-row: 1;
+}
+.ba-module__testimonials--avatar-left .testimonials__box {
+  grid-template: "avatar content" auto "avatar credits" auto/auto 1fr;
+}
+.ba-module__testimonials--avatar-right .testimonials__box {
+  grid-template: "content avatar" auto "credits avatar" auto/1fr auto;
+}
+.ba-module__testimonials .testimonials__list {
+  display: grid;
+}
+.ba-module__testimonials .testimonials__box {
+  display: grid;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px 0;
+}
+.ba-module__testimonials .testimonials__avatar {
+  border-radius: 100%;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  grid-area: avatar;
+  align-self: center;
+}
+.ba-module__testimonials .testimonials__avatar img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ba-module__testimonials .testimonials__content {
+  grid-area: content;
+  margin: 0;
+}
+.ba-module__testimonials .testimonials__content p {
+  margin: 0;
+}
+.ba-module__testimonials .testimonials__credits {
+  grid-area: credits;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.ba-module__testimonials .testimonials__author {
+  display: block;
+}
+.ba-module__testimonials .testimonials__role {
+  display: block;
+}

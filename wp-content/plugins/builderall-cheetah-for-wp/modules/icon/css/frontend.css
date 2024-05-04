@@ -1,0 +1,30 @@
+.ba-module__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ba-module__icon .icon__wrapper {
+  -webkit-transition: 300ms ease background-color;
+  transition: 300ms ease background-color;
+  padding: 0.5em;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+}
+.ba-module__icon .icon__wrapper a {
+  color: inherit;
+}
+.ba-module__icon .icon__wrapper i {
+  -webkit-transition: none;
+  transition: none;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+}
+.ba-module__icon .icon__wrapper i:before {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}

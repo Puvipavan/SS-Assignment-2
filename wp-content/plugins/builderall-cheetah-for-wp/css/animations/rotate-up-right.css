@@ -1,0 +1,36 @@
+.ba-cheetah-animated.ba-cheetah-rotate-up-right {
+	animation: ba-cheetah-rotate-up-right 1s ease;
+	-webkit-animation: ba-cheetah-rotate-up-right 1s ease;
+}
+@-webkit-keyframes ba-cheetah-rotate-up-right {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -90deg);
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes ba-cheetah-rotate-up-right {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -90deg);
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136" height="128" viewBox="0 0 136 128">
+  <defs>
+    <filter id="Background" x="0" y="0" width="136" height="128" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Modo_Default" data-name="Modo Default" transform="translate(3 2)">
+    <g id="browser">
+      <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#Background)">
+        <rect id="Background-2" data-name="Background" width="130" height="122" rx="6" transform="translate(3 2)" fill="#fdfdfd"/>
+      </g>
+      <path id="Top_bar" data-name="Top bar" d="M6,0H124a6,6,0,0,1,6,6v8.407a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" fill="#e0e7ec"/>
+      <path id="Buttons" d="M11.809,1.8a1.772,1.772,0,1,1,3.543,0,1.772,1.772,0,1,1-3.543,0Zm-5.9,0a1.772,1.772,0,1,1,3.543,0A1.772,1.772,0,1,1,5.9,1.8ZM0,1.8A1.786,1.786,0,0,1,1.771,0,1.786,1.786,0,0,1,3.543,1.8,1.787,1.787,0,0,1,1.771,3.6,1.786,1.786,0,0,1,0,1.8Z" transform="translate(5.314 5.403)" fill="#94a2ab"/>
+    </g>
+    <g id="Image" transform="translate(5.908 28.16)">
+      <g id="Image_1" data-name="Image 1" transform="translate(34.449 6.918)">
+        <rect id="Placeholder" width="34.873" height="25.332" rx="3" transform="translate(-0.174 -0.078)" fill="#e0e7ec"/>
+        <g id="Icons_Mountains" data-name="Icons / Mountains" transform="translate(11.824 8.919)">
+          <path id="Mountains" d="M7.711,7.209l-.625-.369v.342H.759A.758.758,0,0,1,.116,6.024L2.832,1.662A.758.758,0,0,1,4.11,1.648l2.225,3.4.687-1.109A.758.758,0,0,1,8.285,3.9L9.776,6A.756.756,0,0,1,9.167,7.2l-1.441.014ZM6.727.892a.884.884,0,1,1,.884.891A.888.888,0,0,1,6.727.892Z" transform="translate(0 0.001)" fill="#94a2ab"/>
+        </g>
+        <g id="Text" transform="translate(-33.357 7.516)">
+          <g id="Text_1" data-name="Text 1" transform="translate(0 31)">
+            <path id="Text-2" data-name="Text" d="M1.445,7.59a1.445,1.445,0,1,1,0-2.891h61.56a1.445,1.445,0,0,1,0,2.891Zm0-4.7A1.445,1.445,0,0,1,1.445,0H43.824a1.445,1.445,0,1,1,0,2.891Z" transform="translate(0 4.698)" fill="#e0e7ec"/>
+            <rect id="Title" width="18.069" height="2.891" rx="1.446" fill="#94a2ab"/>
+          </g>
+          <g id="Text_1-2" data-name="Text 1" transform="translate(0 46)">
+            <path id="Text-3" data-name="Text" d="M1.445,7.59a1.445,1.445,0,1,1,0-2.891h61.56a1.445,1.445,0,0,1,0,2.891Zm0-4.7A1.445,1.445,0,0,1,1.445,0H43.824a1.445,1.445,0,1,1,0,2.891Z" transform="translate(0 4.698)" fill="#e0e7ec"/>
+            <rect id="Title-2" data-name="Title" width="18.069" height="2.891" rx="1.446" fill="#94a2ab"/>
+          </g>
+          <path id="Text-4" data-name="Text" d="M1.516,17.816a1.516,1.516,0,1,1,0-3.033H12.935a1.516,1.516,0,1,1,0,3.033Zm0-4.927a1.516,1.516,0,1,1,0-3.033h25.87a1.516,1.516,0,1,1,0,3.033Zm0-4.928a1.516,1.516,0,1,1,0-3.032H22.569a1.516,1.516,0,1,1,0,3.032Zm0-4.928A1.516,1.516,0,1,1,1.516,0h25.87a1.516,1.516,0,1,1,0,3.032Z" transform="translate(0 -1.928)" fill="#e0e7ec"/>
+          <path id="Text-5" data-name="Text" d="M1.516,7.961a1.516,1.516,0,1,1,0-3.032H54.085a1.516,1.516,0,0,1,0,3.032Zm0-4.928A1.516,1.516,0,1,1,1.516,0H65.2a1.516,1.516,0,1,1,0,3.032Z" transform="translate(0 21)" fill="#e0e7ec"/>
+        </g>
+        <rect id="Rectangle" width="28.719" height="3" rx="1.5" transform="translate(-33.174 -0.078)" fill="#94a2ab"/>
+      </g>
+      <g id="Text-6" data-name="Text" transform="translate(77.736 25.92)">
+        <path id="Text-7" data-name="Text" d="M1.4,34.649a1.4,1.4,0,1,1,0-2.8H26.149a1.4,1.4,0,1,1,0,2.8Zm0-4.55a1.4,1.4,0,1,1,0-2.8H37.956a1.4,1.4,0,0,1,0,2.8Zm0-4.55a1.4,1.4,0,1,1,0-2.8H34.02a1.4,1.4,0,0,1,0,2.8ZM1.4,21a1.4,1.4,0,1,1,0-2.8H26.149a1.4,1.4,0,1,1,0,2.8Zm0-4.55a1.4,1.4,0,1,1,0-2.8H37.956a1.4,1.4,0,0,1,0,2.8Zm0-9.1a1.4,1.4,0,0,1,0-2.8H34.02a1.4,1.4,0,0,1,0,2.8Zm0-4.55A1.4,1.4,0,1,1,1.4,0H30.084a1.4,1.4,0,1,1,0,2.8Z" transform="translate(0 4.55)" fill="#e0e7ec"/>
+        <rect id="Title-3" data-name="Title" width="39.355" height="2.8" rx="1.4" fill="#94a2ab"/>
+      </g>
+      <g id="Grupo_5410" data-name="Grupo 5410" transform="translate(82.436 -267.66)">
+        <rect id="Placeholder-2" data-name="Placeholder" width="39.355" height="15" rx="3" transform="translate(-4.699 274.5)" fill="#e0e7ec"/>
+        <rect id="Button" width="5.586" height="2.732" rx="1.366" transform="translate(26.369 280.501)" fill="#649dff"/>
+        <rect id="Input_Field" data-name="Input Field" width="25.416" height="2.732" rx="1.366" transform="translate(-2 280.501)" fill="#fff"/>
+      </g>
+      <g id="Placeholder-3" data-name="Placeholder" transform="translate(-1.908 2.84)" fill="rgba(88,172,253,0.12)" stroke="rgba(7,131,252,0.55)" stroke-width="1">
+        <rect width="74.873" height="74.131" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="73.873" height="73.131" rx="2.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_5412" data-name="Grupo 5412">
+      <rect id="Placeholder-4" data-name="Placeholder" width="130" height="14" transform="translate(0 14)" fill="#e0e7ec" opacity="0.447"/>
+      <path id="Combined_Shape" data-name="Combined Shape" d="M100.653,2.4a1.2,1.2,0,1,1,0-2.4h15.33a1.2,1.2,0,1,1,0,2.4Zm-11.819,0a1.2,1.2,0,0,1,0-2.4h7.058a1.2,1.2,0,1,1,0,2.4Zm-20.091,0a1.2,1.2,0,0,1,0-2.4H84.074a1.2,1.2,0,0,1,0,2.4ZM2.2,2.4A1.2,1.2,0,1,1,2.2,0h2.33a1.2,1.2,0,1,1,0,2.4Z" transform="translate(5.908 19)" fill="#94a2ab"/>
+    </g>
+    <g id="Grupo_5416" data-name="Grupo 5416" transform="translate(0 94)">
+      <path id="Placeholder-5" data-name="Placeholder" d="M0,0H130a0,0,0,0,1,0,0V8a6,6,0,0,1-6,6H6A6,6,0,0,1,0,8V0A0,0,0,0,1,0,0Z" transform="translate(0 14)" fill="#e0e7ec" opacity="0.447"/>
+      <path id="Combined_Shape-2" data-name="Combined Shape" d="M116.2,2.4a1.2,1.2,0,0,1,0-2.4h.331a1.2,1.2,0,0,1,0,2.4Zm-4,0a1.2,1.2,0,1,1,0-2.4h.33a1.2,1.2,0,1,1,0,2.4Zm-4,0a1.2,1.2,0,0,1,0-2.4h.331a1.2,1.2,0,0,1,0,2.4Zm-75.544,0a1.2,1.2,0,1,1,0-2.4h15.33a1.2,1.2,0,1,1,0,2.4Zm-11.819,0a1.2,1.2,0,0,1,0-2.4h7.058a1.2,1.2,0,1,1,0,2.4ZM.743,2.4a1.2,1.2,0,1,1,0-2.4H16.074a1.2,1.2,0,0,1,0,2.4Z" transform="translate(7 20.001)" fill="#94a2ab"/>
+    </g>
+  </g>
+</svg>

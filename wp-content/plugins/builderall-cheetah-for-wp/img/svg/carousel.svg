@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="40" viewBox="0 0 67 40">
+  <g id="Carousel" transform="translate(-1500.488 230)">
+    <rect id="Retângulo_996" data-name="Retângulo 996" width="40" height="37" rx="5" transform="translate(1552.488 -230) rotate(90)" fill="#0080fc"/>
+    <path id="Caminho_16059" data-name="Caminho 16059" d="M3.959,0H31.01c.911,0,1.32,1.952,1.32,1.952l2.639,4.686a1.82,1.82,0,0,1-1.649,1.952H1.649A1.82,1.82,0,0,1,0,6.638L2.309,1.952S3.048,0,3.959,0Z" transform="translate(1513.623 -228) rotate(90)" fill="#6fb0ff"/>
+    <path id="Caminho_16060" data-name="Caminho 16060" d="M3.959,8.591H31.01c.911,0,1.32-1.952,1.32-1.952l2.639-4.686A1.82,1.82,0,0,0,33.319,0H1.649A1.82,1.82,0,0,0,0,1.952L2.309,6.638S3.048,8.591,3.959,8.591Z" transform="translate(1563.215 -228) rotate(90)" fill="#6fb0ff"/>
+    <rect id="Retângulo_1212" data-name="Retângulo 1212" width="2" height="36" rx="1" transform="translate(1500.488 -228)" fill="#6fb0ff" opacity="0.999"/>
+    <rect id="Retângulo_1213" data-name="Retângulo 1213" width="2" height="36" rx="1" transform="translate(1565.488 -228)" fill="#6fb0ff" opacity="0.999"/>
+    <path id="Caminho_15810" data-name="Caminho 15810" d="M11.325,8.167l1.552,1.552a.819.819,0,0,1,0,1.164l-.423.423a.776.776,0,0,0,0,1.1h0a.776.776,0,0,0,1.106,0l1.012-.993.508-.5a1.067,1.067,0,0,1,1.815.776v2.968a2.207,2.207,0,0,1-2.2,2.188H6.681a2.2,2.2,0,0,1-2.2-2.424,2.3,2.3,0,0,1,.7-1.377L10.06,8.167A.9.9,0,0,1,11.325,8.167ZM8.365,6.759A1.552,1.552,0,1,1,6.813,5.207,1.552,1.552,0,0,1,8.365,6.759Z" transform="translate(1523.014 -221.206)" fill="#fdfdfd"/>
+  </g>
+</svg>

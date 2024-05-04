@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="41" viewBox="0 0 67 41">
+  <g id="Grupo_5399" data-name="Grupo 5399" transform="translate(-1500.488 228)">
+    <rect id="Retângulo_1147" data-name="Retângulo 1147" width="67" height="31" rx="5" transform="translate(1500.488 -228)" fill="#0080fc"/>
+    <path id="Caminho_15812" data-name="Caminho 15812" d="M4,7.136v8.953a3.136,3.136,0,0,0,3.136,3.136h8.953a3.136,3.136,0,0,0,3.136-3.136V7.136A3.136,3.136,0,0,0,16.089,4H7.136A3.136,3.136,0,0,0,4,7.136Zm8.233,2.052,1.523,1.523a.8.8,0,0,1,0,1.142l-.415.415a.761.761,0,0,0,0,1.081h0a.761.761,0,0,0,1.085,0l.993-.974.5-.491a1.047,1.047,0,0,1,1.781.761v2.912A2.166,2.166,0,0,1,15.537,17.7H7.677a2.154,2.154,0,0,1-2.154-2.379,2.257,2.257,0,0,1,.685-1.351l4.785-4.785A.879.879,0,0,1,12.233,9.188Zm-2.9-1.382A1.523,1.523,0,1,1,7.806,6.284,1.523,1.523,0,0,1,9.329,7.806Z" transform="translate(1522.488 -224)" fill="#fff" opacity="0.849"/>
+    <circle id="Elipse_290" data-name="Elipse 290" cx="2.5" cy="2.5" r="2.5" transform="translate(1521.488 -192)" fill="#0080fc"/>
+    <circle id="Elipse_291" data-name="Elipse 291" cx="2.5" cy="2.5" r="2.5" transform="translate(1531.488 -192)" fill="#0080fc"/>
+    <circle id="Elipse_292" data-name="Elipse 292" cx="2.5" cy="2.5" r="2.5" transform="translate(1541.488 -192)" fill="#0080fc"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="44.609" height="46.481" viewBox="0 0 44.609 46.481">
+  <g id="Map" transform="translate(-8.185 -5.661)">
+    <path id="Caminho_14081" data-name="Caminho 14081" d="M48.445,53.211h-38a2.559,2.559,0,0,1-2-1c-.455-.614-.22-1.268,0-2l8-26c.31-1.02.934-1.994,2-2h22a3.639,3.639,0,0,1,3,2l7,26c.225.734.458,1.384,0,2A2.534,2.534,0,0,1,48.445,53.211Z" transform="translate(0 -1.202)" fill="#dfe8f4" opacity="0.396"/>
+    <path id="Caminho_14083" data-name="Caminho 14083" d="M42.537,41.211c-.117-.517-.533-.748-1-1l-10-5v-13h-4v5h-12l-1,4h13v3l-18,19c.4.3.5,0,1,0h4l15-15,10,5,2,10h4Z" transform="translate(-0.091 -1.202)" fill="#ccd8e5"/>
+    <path id="Caminho_14084" data-name="Caminho 14084" d="M52.26,28.008l-8,7a.669.669,0,0,1-1,0l-7-7a12.465,12.465,0,0,1,0-17h0a11.233,11.233,0,0,1,16,0h0A12.465,12.465,0,0,1,52.26,28.008Z" transform="translate(-2.813 -1.999)" fill="#0795ff"/>
+    <circle id="Elipse_321" data-name="Elipse 321" cx="1.5" cy="1.5" r="1.5" transform="translate(39.445 34.01)" fill="#156cdd"/>
+    <circle id="Elipse_322" data-name="Elipse 322" cx="3.5" cy="3.5" r="3.5" transform="translate(37.445 15.01)" fill="#156cdd"/>
+  </g>
+</svg>

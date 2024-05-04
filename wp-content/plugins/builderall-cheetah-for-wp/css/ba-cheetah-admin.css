@@ -1,0 +1,10 @@
+/* Adjust Cheetah icon position on menu */
+#toplevel_page_ba-cheetah-settings .wp-menu-image img {
+	filter: grayscale(0.9) opacity(0.9);
+	opacity: unset !important;
+	width: 24px;
+}
+
+#toplevel_page_ba-cheetah-settings:hover .wp-menu-image img{
+	filter: none;
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="47" viewBox="0 0 70 47">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="70" height="47" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repetição_de_grade_6" data-name="Repetição de grade 6" clip-path="url(#clip-path)">
+    <g transform="translate(-1491.488 238)">
+      <rect id="Retângulo_1058" data-name="Retângulo 1058" width="70" height="13" rx="3" transform="translate(1491.488 -238)" fill="#0080fc"/>
+      <path id="angle-up" d="M12.875,8.879a.643.643,0,0,0-.456.189l-2.28,2.28-2.28-2.28a.645.645,0,1,0-.912.912l2.736,2.736a.645.645,0,0,0,.912,0L13.331,9.98a.645.645,0,0,0-.456-1.1Z" transform="translate(1539.277 -242.385)" fill="#fff"/>
+      <rect id="Retângulo_1059" data-name="Retângulo 1059" width="28" height="3" rx="1.5" transform="translate(1498.488 -233)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1491.488 255)">
+      <rect id="Retângulo_1058-2" data-name="Retângulo 1058" width="70" height="13" rx="3" transform="translate(1491.488 -238)" fill="#0080fc"/>
+      <path id="angle-up-2" data-name="angle-up" d="M12.875,8.879a.643.643,0,0,0-.456.189l-2.28,2.28-2.28-2.28a.645.645,0,1,0-.912.912l2.736,2.736a.645.645,0,0,0,.912,0L13.331,9.98a.645.645,0,0,0-.456-1.1Z" transform="translate(1539.277 -242.385)" fill="#fff"/>
+      <rect id="Retângulo_1059-2" data-name="Retângulo 1059" width="28" height="3" rx="1.5" transform="translate(1498.488 -233)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1491.488 272)">
+      <rect id="Retângulo_1058-3" data-name="Retângulo 1058" width="70" height="13" rx="3" transform="translate(1491.488 -238)" fill="#0080fc"/>
+      <path id="angle-up-3" data-name="angle-up" d="M12.875,8.879a.643.643,0,0,0-.456.189l-2.28,2.28-2.28-2.28a.645.645,0,1,0-.912.912l2.736,2.736a.645.645,0,0,0,.912,0L13.331,9.98a.645.645,0,0,0-.456-1.1Z" transform="translate(1539.277 -242.385)" fill="#fff"/>
+      <rect id="Retângulo_1059-3" data-name="Retângulo 1059" width="28" height="3" rx="1.5" transform="translate(1498.488 -233)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

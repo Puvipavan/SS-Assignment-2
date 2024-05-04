@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="26" viewBox="0 0 53 26">
+  <defs>
+    <filter id="Retângulo_987" x="0" y="0" width="53" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#6fb0ff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_5099" data-name="Grupo 5099" transform="translate(-113 -135)">
+    <g transform="matrix(1, 0, 0, 1, 113, 135)" filter="url(#Retângulo_987)">
+      <rect id="Retângulo_987-2" data-name="Retângulo 987" width="52" height="24" rx="6" transform="translate(1)" fill="#0080fc"/>
+    </g>
+    <line id="Linha_74" data-name="Linha 74" x2="20" transform="translate(130.619 147.613)" fill="none" stroke="#f0f7ff" stroke-linecap="round" stroke-width="4"/>
+  </g>
+</svg>

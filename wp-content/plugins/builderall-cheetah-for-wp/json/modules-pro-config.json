@@ -1,0 +1,63 @@
+{
+	"animated-headline": {
+		"name": "Animated Headline",
+		"show": true
+	},
+	"animated-text": {
+		"name": "Animated Text",
+		"show": true
+	},
+	"fb-button": {
+		"name": "Facebook Button",
+		"show": true
+	},
+	"fb-comments": {
+		"name": "Facebook Comments",
+		"show": true
+	},
+	"fb-page": {
+		"name": "Facebook page",
+		"show": true
+	},
+	"fb-save": {
+		"name": "Facebook Save",
+		"show": true
+	},
+	"fb-share": {
+		"name": "Facebook Share",
+		"show": true
+	},
+	"fb-video": {
+		"name": "Facebook Video",
+		"show": true
+	},
+	"flip-box": {
+		"name": "Flip Box",
+		"show": true
+	},
+	"mega-menu": {
+		"name": "Mega Menu",
+		"show": true
+	},
+	"progress-circle": {
+		"name": "Radial Progress",
+		"show": true
+	},
+	"pricing-list": {
+		"name": "Pricing List",
+		"show": true
+	},
+	"booking": {
+		"name": "Booking",
+		"show": true
+	},
+	"mailingboss": {
+		"name": "Mailingboss",
+		"show": true
+	},
+	"webinar": {
+		"name": "Webinar",
+		"show": true
+	}
+}
+

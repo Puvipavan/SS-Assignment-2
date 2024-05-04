@@ -1,0 +1,23 @@
+{
+	"booking": {
+		"name": "Booking",
+		"icon": "builderall-booking.svg"
+	},
+	"mailingboss": {
+		"name": "Mailingboss",
+		"icon": "builderall-mailingboss.svg"
+	},
+	"video-hosting": {
+		"name": "Video Hosting",
+		"icon": "builderall-video-hosting.svg"
+	},
+	"webinar": {
+		"name": "Webinar",
+		"icon": "builderall-webinar.svg"
+	},
+	"supercheckout": {
+		"name": "Supercheckout",
+		"icon": "builderall-supercheckout.svg"
+	}
+}
+

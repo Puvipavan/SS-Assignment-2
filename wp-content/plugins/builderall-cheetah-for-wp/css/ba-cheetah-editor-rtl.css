@@ -1,0 +1,187 @@
+/* navbar
+------------------------------------------------------ */
+.ba-cheetah-bar .ba-navbar-history .ba-cheetah-button svg {
+  transform: scaleX(-1);
+}
+
+.ba-cheetah-publish-actions {
+  left: 12px;
+  right: unset;
+}
+
+/* menu
+------------------------------------------------------ */
+.ba-cheetah--main-menu-panel {
+  left: unset;
+  transform: translatex(100%);
+  right: 0;
+}
+
+/* fields
+------------------------------------------------------ */
+.ba-cheetah-button-group-field-options {
+  float: right;
+}
+
+body .ba-cheetah-unit-field-input:last-child > * {
+  border-radius: 4px 0px 0px 4px !important;
+}
+
+.ba-cheetah-compound-field-setting {
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+body .ba-cheetah-dimension-field-units > *:last-child > * {
+  border-radius: 4px 0px 0px 4px !important;
+}
+
+.ba-cheetah-typography-field .ba-cheetah-font-field-font-wrapper {
+  margin-right: 0 !important;
+  margin-left: 15px !important;
+}
+
+.ba-cheetah-icons-filter select,
+.ba-cheetah-settings-fields select {
+  padding-right: 10px !important;
+  padding-left: 30px !important;
+  background-position: 8px center;
+}
+
+/* Color Picker Fields
+------------------------------------------------------ */
+.ba-cheetah-color-picker-ui .iris-picker .iris-square {
+  margin: 0 auto 0 0;
+}
+
+.ba-cheetah-color-picker-ui .iris-picker .iris-strip {
+  margin: 5px auto 6px 6px;
+}
+
+.ba-cheetah-color-picker-ui .ba-cheetah-alpha-slider {
+  left: 7px;
+}
+
+.ba-cheetah-color-picker-ui .ba-cheetah-alpha-text {
+  left: 5px;
+}
+
+.ba-cheetah-color-picker-preset-add {
+  right: auto;
+  left: 8px;
+}
+
+.ba-cheetah-color-picker-preset-add:before {
+  left: auto;
+  right: 3px;
+}
+
+.ba-cheetah-color-picker-preset-add:after {
+  left: auto;
+  right: 6px;
+}
+
+.ba-cheetah-color-picker-clear .ba-cheetah-color-picker-icon-remove {
+  left: 0;
+  right: auto;
+}
+
+.ba-cheetah-color-picker-icon-remove:before {
+  left: auto;
+  right: 6px;
+}
+
+.ba-cheetah-color-picker-icon-remove:after {
+  left: auto;
+  right: 6px;
+}
+
+.ba-cheetah-color-picker-presets-list .ba-cheetah-color-picker-preset-remove {
+  right: auto;
+  left: 5px;
+}
+
+/* sidebar
+------------------------------------------------------ */
+.ba-cheetah-nanoscroller .ba-cheetah-nanoscroller-content {
+  right: 0 !important;
+  left: -17px;
+}
+
+.ba-cheetah-panel, .ba-cheetah--search-results-panel {
+  left: 20px;
+  right: unset;
+}
+
+.ba-cheetah-settings-tabs-overflow-menu {
+  left: 0;
+  right: unset;
+}
+
+/* Wrappers
+------------------------------------------------------ */
+.ba-cheetah-bar,
+.ba-cheetah-panel,
+.bal-cheetah-lightbox {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+.ba-cheetah-form-table th {
+  text-align: right !important;
+}
+
+.ba-cheetah-lightbox-width-slim .ba-cheetah-form-table {
+  margin-right: auto !important;
+}
+
+.ba-cheetah-ui-pinned-content-transform {
+  transform: none;
+}
+
+/* Tooltips
+------------------------------------------------------ */
+.ba-cheetah-help-tooltip-text {
+  left: auto;
+  right: 0;
+}
+
+/* LightBox
+------------------------------------------------------ */
+.ba-cheetah-lightbox-footer {
+  text-align: left;
+}
+
+.ba-cheetah-lightbox-header .ba-cheetah-settings-fields,
+.ba-cheetah-lightbox-controls {
+  right: auto;
+  left: 10px;
+}
+
+/* 2.0 RTL Updates
+------------------------------------------------------ */
+.ba-cheetah-panel-drag-handle {
+  right: 10px;
+  left: auto;
+}
+
+.ba-cheetah--template-collection-item {
+  float: right;
+}
+
+.ba-cheetah-block-col-resize-w {
+  left: auto;
+  right: -12px !important;
+}
+
+.ba-cheetah-block-col-resize-e {
+  left: 4px !important;
+  right: auto !important;
+}
+
+/* HTML editor
+------------------------------------------------------ */
+.bal-cheetah-lightbox .ace_editor {
+  direction: ltr;
+  text-align: left;
+}
