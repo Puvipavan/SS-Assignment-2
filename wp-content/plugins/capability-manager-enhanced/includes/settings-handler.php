@@ -7,6 +7,9 @@
  */
 
 add_action('init', function() {
+    if (!current_user_can('manage_options')) {
+        exit();
+    }
 
     if (!empty($_POST['all_options'])) {
         foreach(explode(',', $_POST['all_options']) as $option_name) {
