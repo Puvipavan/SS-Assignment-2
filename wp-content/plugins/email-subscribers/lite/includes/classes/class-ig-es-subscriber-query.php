@@ -209,6 +209,7 @@ class IG_ES_Subscribers_Query {
 						$field    = isset( $condition['field'] ) ? $condition['field'] : ( isset( $condition[0] ) ? $condition[0] : null );
 						$operator = isset( $condition['operator'] ) ? $condition['operator'] : ( isset( $condition[1] ) ? $condition[1] : null );
 						$value    = isset( $condition['value'] ) ? $condition['value'] : ( isset( $condition[2] ) ? $condition[2] : null );
+						$value    = esc_sql( $value );
 
 						if ( ! in_array( $field, $this->action_fields, true ) ) {
 							$sub_cond[] = $this->get_condition( $field, $operator, $value );
